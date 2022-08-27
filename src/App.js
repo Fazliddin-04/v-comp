@@ -9,12 +9,14 @@ import Footer from './components/layout/Footer';
 // kamchiliklarni oldini olish va animatsiyalar qo'shish orqali 
 // interaktiv sayt yaratish mumkin
 
+
+
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Content />
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
